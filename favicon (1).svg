@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
+  <!-- Dark background -->
+  <rect width="64" height="64" rx="10" fill="#111111"/>
+
+  <!-- M letter in white -->
+  <polygon points="6,52 6,14 16,14 26,34 36,14 46,14 46,52 38,52 38,28 28,48 24,48 14,28 14,52" fill="#FFFFFF"/>
+
+  <!-- B letter in orange -->
+  <g fill="#F97316">
+    <!-- B vertical bar -->
+    <rect x="44" y="12" width="7" height="40" rx="1"/>
+    <!-- B top bump -->
+    <path d="M51,12 Q62,12 62,22 Q62,32 51,32 L51,12Z" />
+    <!-- B bottom bump -->
+    <path d="M51,32 Q64,32 64,44 Q64,52 51,52 L51,32Z" />
+  </g>
+</svg>
